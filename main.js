@@ -16,7 +16,6 @@ function resizeTextarea (id) {
 
 function generateText() {
     var address = document.getElementById("address").value;
-    console.log(address);
     var port = parseInt(document.getElementById("port").value);
     var count = parseInt(document.getElementById("count").value);
     var final = "";

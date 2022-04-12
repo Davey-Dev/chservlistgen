@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">    
+
+<p id="bruh">Hi yeah</p>
+<body>
+    <label for="address">Server Address</label><br>
+    <input type="text" id="address" name="address"><br>
+    <label for="port">Starting Port</label><br>
+    <input type="text" id="port" name="port"><br>
+    <label for="count">Number To Generate</label><br>
+    <input type="text" id="count" name="count"><br>
+    <input type="submit" value="Generate" onclick="generateText()"><br><br>
+    <div class="finallist">
+        <label for="final">Final List</label>
+        <button onclick="copyText()">Copy text</button><br>
+        <textarea readonly id="final"></textarea>
+    </div>
+    
+</body>
+</html>
